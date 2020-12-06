@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Advanced search</title>
+	<link rel="stylesheet" href="css.css" >
+</head>
+<body>
+	<div id="top">
+		<img src="yes.png" width="180px">
+    	<a href="ggl.html"><input type="button" value="Back to Google Search" class = "switch" onClick='href="gglpict.html"'></a>
+	</div>
+	<h1 id="anounce">Расширенный поиск</h1>
+	<h3 id="title">Найти страницы</h3>
+	<form action="https://google.com/search">
+		<table id="table">
+			<tr>
+				<th class="qust">со словами:</th>
+				<th class="answ"><input type="text" name="as_q" class="input" autofocus="autofocus" autocomplete="off"></th>
+			</tr>
+			<tr>
+				<th class="qust">со словосочетанием:</th>
+				<th class="answ"><input type="text" name="as_epq" class="input" autocomplete="off"></th>
+			</tr>
+			<tr>
+				<th class="qust">с любым из этих слов:</th>
+				<th class="answ"><input type="text" name="as_oq" class="input" autocomplete="off"></th>
+			</tr>
+			<tr>
+				<th class="qust">без слов:</th>
+				<th class="answ"><input type="text" name="as_eq" class="input" autocomplete="off"></th>
+			</tr>
+			<tr>
+				<th></th>
+				<th id="fin"><input type="submit" value="Найти" id="final"></th>
+			</tr>
+		</table>
+	</form>
+</body>
+</html> 
